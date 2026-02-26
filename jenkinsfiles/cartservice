@@ -28,7 +28,7 @@ pipeline {
                 script {
                     sh '''
                     #Retrieve an authentication token and authenticate your Docker client to your registry. Use the AWS CLI:
-                    aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 242201296943.dkr.ecr.us-east-1.amazonaws.com
+                    aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 105006696205.dkr.ecr.ap-south-1.amazonaws.com
 
                     #After the build completes, tag your image so you can push the image to this repository:
                     docker tag cartservice:latest 242201296943.dkr.ecr.us-east-1.amazonaws.com/cartservice:${BUILD_NUMBER}

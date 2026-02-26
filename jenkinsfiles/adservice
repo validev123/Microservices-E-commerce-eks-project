@@ -4,7 +4,7 @@ pipeline {
     environment {
         GIT_REPO_NAME = "Microservices-E-commerce-eks-project"
         GIT_EMAIL = "gsk.vali1255@gmail.com"
-        GIT_USER_NAME = "valigsk"
+        GIT_USER_NAME = "validev123"
         IMAGE_NAME = "adservice"
         REPO_URL = "105006696205.dkr.ecr.ap-south-1.amazonaws.com/adservice"
         YAML_FILE = "adservice.yaml"

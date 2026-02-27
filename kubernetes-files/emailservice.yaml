@@ -28,7 +28,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: 105006696205.dkr.ecr.ap-south-1.amazonaws.com/emailservice:1
+        image: 105006696205.dkr.ecr.ap-south-1.amazonaws.com/emailservice:2
         ports:
         - containerPort: 8080
         env:
